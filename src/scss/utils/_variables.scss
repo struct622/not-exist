@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+// Color
+
+//폰트 굵기
+$font-weight-thin: 100;
+$font-weight-extralight: 200;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+$font-weight-ultrabold: 900;
+
+// break-point
+$breakpoint-mobileS: 250px;
+$breakpoint-mobileSE: 320px;
+$breakpoint-mobile: 360px;
+$breakpoint-tablet: 600px;
+$breakpoint-desktopS: 1152px;
+$breakpoint-desktopM: 1440px;
+$content-max-width: 1080px;
+$content-min-width-desktop: 375px;
+$content-max-width-desktop: 681px;
+$content-max-width-mobile: 568px;

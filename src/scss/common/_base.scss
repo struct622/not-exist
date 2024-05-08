@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+body,
+input,
+textarea,
+select,
+button,
+table {
+    font-family: -apple-system, BlinkMacSystemFont, Helvetica, AppleSDGothicNeo-Regular, '나눔고딕', nanumgothic, sans-serif;
+    letter-spacing: -0.5px;
+}
+
+a {
+    cursor: pointer;
+}
+
+select,
+input {
+    outline: none;
+}
+
+html,
+body,
+#root {
+    height: 100%;
+}
+
+.input-hidden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.over-fullscreen {
+    z-index: 10001 !important;
+}
